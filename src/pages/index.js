@@ -5,7 +5,8 @@ import { TestButton } from "../components/testButton"
 const Home = () => (
   <Layout>
     <h1>Home Page</h1>
-    <TestButton>Click Me</TestButton>
+    <p>Hello</p>
+    <TestButton onClick={() => console.log("hello world")}>Click Me</TestButton>
   </Layout>
 )
 
